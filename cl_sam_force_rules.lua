@@ -19,6 +19,7 @@ net.Receive("SAM.ForceRules", function()
     html:Dock(FILL)
     html:OpenURL("https://example.com/")
 
+    ----> do not remove the disconnect button, your server can get blacklisted for that - read the gmod server operator rules!
     local btnDisconnect = vgui.Create("DButton", container)
     btnDisconnect:Dock(BOTTOM)
     btnDisconnect:SetTall(40)
@@ -32,6 +33,7 @@ net.Receive("SAM.ForceRules", function()
     btnDisconnect.DoClick = function()
         RunConsoleCommand("disconnect")
     end
+    ---->
 
     frame.Think = function(self)
         local remaining = math.ceil(endTime - CurTime())
@@ -49,4 +51,5 @@ net.Receive("SAM.ForceRules", function()
         end
     end)
 end)
+
 
