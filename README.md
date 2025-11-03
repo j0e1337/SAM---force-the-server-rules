@@ -9,7 +9,12 @@ This is a SAM module to make sure the player knows the rules.
 
 # Usage
 `!sam forcerules PLAYERNAME 120` - forces the targeted player to read the rules for 120 seconds(2 minutes)
-- the minimum time is 5 seconds but you can change the code as you like
+- the minimum time is 5 seconds
 
-> [!WARNING]
+> [!CAUTION]
 > Do not remove the Disconnect button as it would violate the [Garry's Mod Server Operator Rules](https://wiki.facepunch.com/gmod/Server_Operator_Rules)!
+
+> [!TIP]
+> Please do not reupload the code to the workshop. Feel free to edit the code and add this directly to your server.
+
+
