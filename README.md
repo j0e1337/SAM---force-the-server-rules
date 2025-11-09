@@ -14,7 +14,7 @@ This is a SAM module to make sure the player knows the rules. With the command, 
 
 > [!CAUTION]
 > Do not remove the Disconnect button as it would violate the [Garry's Mod Server Operator Rules](https://wiki.facepunch.com/gmod/Server_Operator_Rules)! 
-> Your server can be blacklisted if it violates the operator rules.
+> \Your server can be blacklisted if it violates the operator rules.
 
 > [!TIP]
 > Please do not reupload the code to the workshop. Feel free to edit the code and add this directly to your server.
